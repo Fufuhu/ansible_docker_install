@@ -1,0 +1,6 @@
+---
+- import_tasks: install_docker_prerequisite.yml
+- import_tasks: install_docker.yml
+- import_tasks: setup_docker_daemon.yml
+- import_tasks: setup_user.yml
+- import_tasks: install_docker_compose.yml
